@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: coral;
+}
+
+.container {
+    background: #F0F0F0;
+    height: 450px;
+    text-align: center;
+}
+
+.box {
+    margin-top: 100px;
+}
+
+.box #generate-btn {
+    margin: 18px 0;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #64b6ac;
+    color: #fff;
+    background-position: inherit;
+}
+
+.box #generate-btn:hover {
+    background: brown;
+}
+
+h3 {
+    font-size: 1.75rem;
+    text-align: left;
+}
+
+
+.quote-icon i {
+    font-size: 100px;
+    margin-right: 3px;
+    color:#6c757d;
+}
+
+
+
+.author {
+    text-align: right;
+    font-size: 20px;
+    margin-top: 30px;
+}
